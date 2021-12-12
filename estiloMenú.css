@@ -1,0 +1,388 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*                                 Estilo navegador y elementos*/
+div#contenedorNavegador1{
+	background-color: #222121;
+	width: auto;
+	height: 120px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img#imgLogo{
+	margin: 8px 0px 0px 35px;
+}
+
+div#contenedorNavegador2{
+	background-color: #222121;
+	width: 1275px;
+	height: 119px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a#texto1{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0px 0px 0px 0px;
+	font-family: Candara
+}
+
+a#texto1:hover{
+	color: #D19812;
+	font-size: 32px;
+}
+
+a#texto{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0px 0px 0px 110px;
+	font-family: Candara
+}
+
+a#texto:hover{
+	color: #D19812;
+	font-size: 32px;
+}
+
+/*                                          Estilo inicio Menú*/
+div#idMenu{
+	background: url('Fotos/fondoMenu.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: auto;
+	height: 505px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*                                          Estilo presentación Menús*/
+div#Menús{
+	background-color: white;
+	width: auto;
+	height: 3400px;
+	margin: 0px;
+}
+
+div#MenúCrepas{
+	background-color: white;
+	width: 1349px;
+	height: 500px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#MenúCrepas img{
+	margin: 0px 0px 0px 80px;
+}
+
+img#orange1{
+	margin: 0px 0px 0px 380px;
+}
+
+div#MenúWaffles{
+	background-color: white;
+	width: 1349px;
+	height: 500px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#MenúWaffles img{
+	margin: 0px 0px 0px 80px;
+}
+
+img#orange2{
+	margin: 0px 175px 0px 0px;
+}
+
+div#MenúInfantil{
+	background-color: white;
+	width: 1349px;
+	height: 500px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#MenúInfantil img{
+	margin: 0px 0px 0px 80px;
+}
+/*                                          Estilo inicio Menú Bebidas*/
+div#idMenuBebidas{
+	background: url('Fotos/fondoBebidas.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: auto;
+	height: 405px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*                                          Estilo presentación Menús de bebidas*/
+
+div#MenúBebidas{
+	background-color: white;
+	width: 1349px;
+	height: 500px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#MenúBebidas img{
+	margin: 0px 0px 0px 80px;
+}
+
+/*                                          Estilo presentación Paquetes*/
+div#collage{
+	background-color: white;
+	width: 1349px;
+	height: 825px;
+	margin: 50px 0px 0px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#collage1{
+	background-color: white;
+	width: 430px;
+	height: 820px;
+	margin: 0px;
+}
+
+div#collage1 img{
+	width: 430px;
+	margin: 0px 0px 25px 0px;
+}
+
+div#collage2{
+	background-color: white;
+	width: 430px;
+	height: 820px;
+	margin: 0px 30px 0px 30px;
+}
+
+div#collage2 img{
+	width: 430px;
+	margin: 0px 0px 25px 0px;
+}
+
+div#collage3{
+	background-color: white;
+	width: 430px;
+	height: 820px;
+	margin: 0px;
+}
+
+img#coll1{
+	width: 429px;
+	margin: 0px 0px 65px 0px;
+}
+
+div#texto{
+	background-color: white;
+	width: 380px;
+	height: 88px;
+	margin: 0px 0px 0px 0px;
+}
+
+a#apaquetes1{
+	color: black;
+	font-size: 37px;
+	font-family: 'Bahnschrift Light';
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0px;
+}
+
+a#apaquetes2{
+	color: black;
+	font-size: 37px;
+	font-family: 'Bahnschrift Light';
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0px;
+}
+
+a#apaquetes1:hover{
+	color: #D19812;
+	font-size: 39px;
+}
+
+a#apaquetes2:hover{
+	color: #D19812;
+	font-size: 39px;
+}
+
+img#coll2{
+	width: 429px;
+	margin: 65px 0px 0px 0px;
+}
+/*                            Estilo de contenedor de datos y elementos*/
+div#contenedorDatos{
+	background: url('Fotos/f4.jpg');
+	background-size: cover;	
+	width: auto;
+	height: 250px;
+	margin: 0px;
+	display: flex;
+}
+
+div#contenedorRedes{
+	width: 268px;
+	height: 248px;
+	margin: 0px;
+}
+
+h3#follow{
+	color: white;
+	margin: 2px 0px 0px 80px;
+}
+
+img#iconos{
+	margin: 10px 0px 0px 32px;
+}
+
+div#contenedorEnlaces{
+	width: 270px;
+	height: 248px;
+	margin: 0px;
+}
+
+
+h4#ER{
+	color: white;
+	font-size: 20px;
+	margin: 65px 0px 0px 20px;
+}
+
+h4#CopyR{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 40px 0px 0px 20px;
+}
+
+div#contenedorEnlaces a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 5px 0px 0px 20px;
+}
+
+div#contenedorEnlaces a:hover{
+	color: #D19812;
+	font-weight: bold;
+}
+
+div#contenedorContacto{
+	width: 270px;
+	height: 248px;
+	margin: 0px;
+}
+
+h4#contact{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 65px 0px 0px 0px;
+}
+
+h4#contact1{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+h4#contact2{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+h4#contact3{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+h4#contact4{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+div#contenedorHorarios{
+	width: 270px;
+	height: 248px;
+	margin: 0px;
+}
+
+h4#horario{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 55px 0px 0px 30px;
+}
+
+h4#horario1{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 30px;
+}
+
+h4#horario2{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 30px;
+}
+
+h4#horario3{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 30px;
+}
+
+h4#horario4{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 30px;
+}
+
+div#contenedorFinal{
+	width: 270px;
+	height: 248px;
+	margin: 0px;
+}
